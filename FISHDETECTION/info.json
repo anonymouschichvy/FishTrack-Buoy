@@ -1,0 +1,7 @@
+{
+    "version": 1,
+    "model": "YOLO v10 medium",
+    "input_img_size": 640,
+    "date": "31-07-2024",
+    "author": "Codahead@Andrew"
+}

@@ -1,0 +1,39 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+ipython_log.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# IDE/Editor config
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Local application outputs/data
+captures/
+output/
+images/output/
+SONAR_DATA/output/
+SONAR_DATA/image/
+SONAR_DATA/data/
+FISHDETECTION/captures/
+FISHDETECTION/output/
+FISHDETECTION/data/
