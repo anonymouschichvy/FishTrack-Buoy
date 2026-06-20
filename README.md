@@ -1,3 +1,5 @@
+# <p align="center"> <img src="images/logo.jpg" alt="FishTrack Logo" style="max-width:100%; height:auto;" /> </p>
+
 # FishTrack 🌊🛰️🐟
 > **Design and Deployment of a Cloud-Based SONAR Buoy Network with LoRa and GPS for Real-Time Mapping and Identification of Fish Hotspots in Coastal Waters**
 
