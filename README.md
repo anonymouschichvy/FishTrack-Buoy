@@ -1,5 +1,4 @@
 # <p align="center"> <img src="images/logo.jpg" alt="FishTrack Logo" style="max-width:100%; height:auto;" /> </p>
-
 FishTrack is an autonomous marine monitoring system that integrates underwater acoustics (sonar), artificial intelligence (YOLO-based fish detection), satellite navigation (GPS), and low-power long-range communication (LoRa) to dynamically map marine environments. Designed for coastal fishing communities, it aims to reduce manual search time, lower fuel costs, and encourage sustainable fisheries management.
 
 ---
@@ -16,7 +15,7 @@ Below is the physical and component design of the completed FishTrack buoy, demo
 ---
 | Side Elevation View | Bottom Transducer View | Auxiliary Components |
 | :---: | :---: | :---: |
-| <img src="images/SIDE.png" alt="Side View" width="250"/> | <img src="images/BOTTOM.png" alt="Bottom View" width="250"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" width="250"/> |
+| <img src="images/SIDE.png" alt="Side View" width="33%"/> | <img src="images/BOTTOM.png" alt="Bottom View" width="33%"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" width="33%"/> |
 ---
 
 ## 💡 Rationale & Problem Statement
