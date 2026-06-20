@@ -216,3 +216,15 @@ python scratch/validate_refactoring.py
 
 - **SONAR Driver Hardware Interface**: Utilizes principles and configurations from the [Open Echo TUSS4470 Driver](https://github.com/Neumi/open_echo) (cloned locally at [open_echo](file:///c:/Users/EJ/Desktop/FISHTRACK/MACOSX/FISHTRACK-BUOY/open_echo)) to coordinate ultrasonic pulse-echo calculations.
 - **AI Fish Species Database**: Incorporates taxonomy classifications and neural network insights from the [Fishial Fish Identification Project](https://github.com/fishial/fish-identification) (cloned locally at [fish-identification](file:///c:/Users/EJ/Desktop/FISHTRACK/MACOSX/FISHTRACK-BUOY/fish-identification)) to validate target predictions.
+
+## 💖 Donate & Support
+
+If you find this project useful and would like to support the deployment of FishTrack buoys for coastal fishing communities, donations are greatly appreciated!
+
+<p align="left">
+  <a href="bitcoin:13zWnp2ty3NPzAXX9QxwEeoPSKhN5tPzic">
+    <img src="https://img.shields.io/badge/Donate-Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Donate Bitcoin" />
+  </a>
+</p>
+
+**Bitcoin Address:** `YOUR_BITCOIN_ADDRESS`
