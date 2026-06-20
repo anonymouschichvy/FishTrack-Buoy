@@ -5,13 +5,19 @@ FishTrack is an autonomous marine monitoring system that integrates underwater a
 
 ---
 
-## 📸 Buoy System & Design
+## 📸 Product Showcase & Gallery
 
-Below are the physical and architectural designs of the FishTrack buoy, designed for stability, marine corrosion resistance, and waterproof sealing.
+Below is the physical and component design of the completed FishTrack buoy, demonstrating its waterproof structural assembly, floatation components, and electronic chassis.
 
-| Buoy Front View | Buoy Design Blueprint |
+### 🌟 The Completed Buoy
+| Final Product (Chassis & Flotation) | Component Layout (Internal Assembly) |
 | :---: | :---: |
-| ![Buoy Front View](images/buoy_front.png) | ![Buoy Design Blueprint](images/buoy_design_1.png) |
+| ![Final Product](images/FINALPRODUCT.png) | ![Internal Assembly](images/COMPONENT.png) |
+
+### 🔍 Angles & Secondary Layouts
+| Side Elevation View | Bottom Transducer View | Auxiliary Components |
+| :---: | :---: | :---: |
+| ![Side View](images/SIDE.png) | ![Bottom View](images/BOTTOM.png) | ![Auxiliary Setup](images/COMPONENT2.png) |
 
 ---
 
@@ -74,19 +80,40 @@ graph TD
 ---
 
 ## 📋 Bill of Materials (BoM)
+A full comparative cost breakdown between the **Completed Buoy Build** (as deployed) and a **Cheap Alternative Build** evaluated during prototype testing. All prices are listed in Philippine Pesos (PHP).
 
-| Component | Description | Role in System |
-| :--- | :--- | :--- |
-| **Raspberry Pi 5 (4GB)** | Quad-core BCM2712 @ 2.4GHz | Main computer; runs AI models & manages logging/queues. |
-| **64MP Hawkeye Camera** | Phase & Contrast Detect Autofocus | Captures high-res day footage for visual fish detection. |
-| **16MP NoIR Camera** | Infrared-sensitive sensor (no IR filter) | Enables nighttime imaging of underwater environments. |
-| **3-Array IR LED Spotlight** | Infrared board light | Illuminates dark underwater areas without disturbing fish. |
-| **TUSS4470 Shield + Uno R3** | Sonar analog interface + ATmega328P | Emits ultrasonic pulses and samples echoes for depth/density. |
-| **Adafruit RFM95W (915MHz)** | Transceiver module | Long-range wireless telemetry backbone. |
-| **RF Power Amplifier** | Signal booster | Enhances LoRa ranges between nodes in wide marine areas. |
-| **GPS-NEO-M8M-10** | Multi-GNSS satellite receiver | Supplies real-time coordinates, speed, and time. |
-| **6W 12V Solar Panel** | Monocrystalline solar generator | Supplies continuous energy in remote marine environments. |
-| **Li-Po Rechargeable Battery** | High density battery cell array | Stores solar power for nighttime operations. |
+| Material / Component | Completed Build Price (PHP) | Cheap Alternative Price (PHP) | Role & System Fit |
+| :--- | :---: | :---: | :--- |
+| **Raspberry Pi 5 8GB** | 5,955.00 | 5,955.00 | Main computer; runs AI models & manages logging/queues. |
+| **TUSS4470 Arduino Shield Board** | 4,841.47 | 4,841.47 | Sonar analog interface for depth/density. |
+| **Adafruit RFM95W Transceiver** | 2,744.00 | 2,744.00 | LoRa transceiver module (2x in Completed; 4x in Cheap Alt). |
+| **Arducam for Raspberry Pi Camera** | 2,432.46 | 2,432.46 | Captures high-res day footage for fish detection. |
+| **UPS 6th GEN POWER MODULE** | 2,320.00 | 2,320.00 | Battery management, charging circuits, and power delivery. |
+| **(2) 915Mhz 4W RF POWER Amplifier** | 2,154.00 | 2,154.00 | Amplifies LoRa RF output signals for multi-mile range. |
+| **SMA CONNECTOR + 915MHz Antenna** | 1,738.00 | 1,738.00 | RF antenna connections for LoRa communication. |
+| **200KHz Transducer** | 1,555.19 | 1,555.19 | Transmits and receives ultrasonic sonar pulses. |
+| **EPOXY Resin CLEAR** | 1,470.00 | 1,470.00 | Waterproof sealant for electronics housing. |
+| **TELESIN Underwater Dome Case** | 1,232.00 | 1,232.00 | Underwater enclosure dome for camera optics. |
+| **Acrylic Disk 16" 10.5" 10"** | 1,131.00 | 1,131.00 | Structural disk inserts for waterproof sealing. |
+| **AMC2170 + PCB MANUFACTURING** | 1,199.00 | 1,199.00 | Custom PCB layout for signal routing and connectors. |
+| **GPS - NEO-M8N + 30AWG WIRE** | 1,169.00 | 1,169.00 | GNSS coordinates, speed, and time. |
+| **SOLAR PANEL 15W** | 870.00 | 870.00 | Continuous solar charging in marine environments. |
+| **10pcs LED Lens w/ Holder** | 956.00 | 956.00 | Focuses wayfinding and IR spotlight illumination. |
+| **XL6019 Set-UP 5A Current Dc-DC** | 482.00 | 482.00 | Voltage boosting for high-power modules. |
+| **5V RELAY + SOLDER WICK + PCB** | 242.00 | 242.00 | Switching control for auxiliary lights/sensors. |
+| **5A DC-DC MPPT Solar Constant V** | 313.00 | 313.00 | MPPT solar battery charging controller. |
+| **Cooling Radiator RP 5** | 197.00 | 197.00 | Thermal radiator/fan for Raspberry Pi 5. |
+| **Aluminium Water Block Radiator** | 170.00 | 170.00 | Passive liquid/water block for outer cooling. |
+| **DRUM 40L (BUOY BODY)** | 621.00 | ~ | Main outer flotation body of the buoy. |
+| **120Ah 3.2v Battery LiFePO4** | ~ | 1,700.00 | Larger alternative storage bank. |
+| **(4) 21700 5550mAh Battery** | ~ | 900.00 | Lithium battery cells (used in cheap alternative power module). |
+| **Arducam Pi Camera (Secondary)** | ~ | 248.00 | Extra secondary night/IR camera. |
+| **Arduino Nano V3** | ~ | ~ | Auxiliary microcontroller (CH340G). |
+| **Arduino Uno R3 (CH340G)** | ~ | ~ | Sonar echo timing controller. |
+| **Raspberry Pi Pico YD-RP2040** | ~ | ~ | Mesh node processing controller. |
+| **3W LED Light w/ Heatsink** | ~ | ~ | Wayfinder lighting system. |
+| **10pcs 3W Infrared IR 940nm LED** | ~ | ~ | Underwater infrared illumination array. |
+| **TOTAL PROJECT COST** | **33,792.12 PHP** | **36,019.12 PHP** | **Completed Build is ~6.2% more cost-effective.** |
 
 ---
 
