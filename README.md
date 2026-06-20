@@ -227,4 +227,4 @@ If you find this project useful and would like to support the deployment of Fish
   </a>
 </p>
 
-**Bitcoin Address:** `YOUR_BITCOIN_ADDRESS`
+**Bitcoin Address:** `13zWnp2ty3NPzAXX9QxwEeoPSKhN5tPzic`
