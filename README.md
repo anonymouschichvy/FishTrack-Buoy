@@ -11,11 +11,11 @@ Below is the physical and component design of the completed FishTrack buoy, demo
 
 | Final Product (Chassis & Flotation) | Component Layout (Internal Assembly) |
 | :---: | :---: |
-| <img src="images/FINALPRODUCT.png" alt="Final Product" height="350"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="350"/> |
+| <img src="images/FINALPRODUCT.png" alt="Final Product" height="1000"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="1000"/> |
 ---
 | Side Elevation View | Bottom Transducer View | Auxiliary Components |
 | :---: | :---: | :---: |
-| <img src="images/SIDE.png" alt="Side View" style="width: 100%; height: 300px; object-fit: contain;"/> | <img src="images/BOTTOM.png" alt="Bottom View" style="width: 100%; height: 300px; object-fit: contain;"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" style="width: 100%; height: 300px; object-fit: contain;"/> |
+| <img src="images/SIDE.png" alt="Side View" style="width: 100%; height: 500px; object-fit: contain;"/> | <img src="images/BOTTOM.png" alt="Bottom View" style="width: 100%; height: 500px; object-fit: contain;"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" style="width: 100%; height: 500px; object-fit: contain;"/> |
 
 ## 💡 Rationale & Problem Statement
 
