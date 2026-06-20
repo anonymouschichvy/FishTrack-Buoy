@@ -21,14 +21,13 @@ Below is the physical and component design of the completed FishTrack buoy, demo
 
 ### 🌟 The Completed Buoy
 
-| Final Product (Chassis & Flotation) | Component Layout (Internal Assembly) |
+| Final Product (Chassis & Flotation) | Component Layout (Auxiliary Assembly) |
 | :---: | :---: |
-| <img src="images/FINALPRODUCT.png" alt="Final Product" height="1000"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="1000"/> |
+| <img src="images/FINALPRODUCT.png" alt="Final Product" height="2000"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="1940"/> |
 ---
-| Side Elevation View | Bottom Transducer View | Auxiliary Components |
+| Side Elevation View | Bottom Transducer View | Internal Components |
 | :---: | :---: | :---: |
-| <img src="images/SIDE.png" alt="Side View" style="width: 100%; height: 450px; object-fit: contain;"/> | <img src="images/BOTTOM.png" alt="Bottom View" style="width: 100%; height: 450px; object-fit: contain;"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" style="width: 100%; height: 450px; object-fit: contain;"/> |
-
+| <img src="images/SIDE.png" alt="Side View" style="width: 100%; height: 400px; object-fit: contain;"/> | <img src="images/BOTTOM.png" alt="Bottom View" style="width: 100%; height: 400px; object-fit: contain;"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" style="width: 100%; height: 400px; object-fit: contain;"/> |
 ## 💡 Rationale & Problem Statement
 
 Traditional coastal fishing is heavily reliant on manual searches, leading to time-consuming and fuel-intensive trips. This guesswork causes:
@@ -90,7 +89,7 @@ graph TD
 ## 📋 Bill of Materials (BoM)
 A full comparative cost breakdown between the **Completed Buoy Build** (as deployed) and a **Cheap Alternative Build** evaluated during prototype testing. All prices are listed in Philippine Pesos (PHP).
 
-| Material / Component | Completed Build Price (PHP) | Cheap Alternative Price (PHP) | Role & System Fit |
+| Material / Component | Predicted Build Price (PHP) | Complete Build Price (PHP) | Role & System Fit |
 | :--- | :---: | :---: | :--- |
 | **Raspberry Pi 5 8GB** | 5,955.00 | 5,955.00 | Main computer; runs AI models & manages logging/queues. |
 | **TUSS4470 Arduino Shield Board** | 4,841.47 | 4,841.47 | Sonar analog interface for depth/density. |
@@ -134,19 +133,7 @@ The system runs a modular daemon loop coordinating five files:
 4. `executor.py`: Spawns and monitors camera and sonar subprocesses with resource safety.
 5. `main.py`: The entry orchestrator driving the main timer loop.
 
-```
-                  ┌──────────────────────────────┐
-                  │         main.py              │
-                  │   (Central Loop & Event)     │
-                  └──────────────┬───────────────┘
-                                 │
-         ┌───────────────────────┼───────────────────────┐
-         ▼                       ▼                       ▼
-┌────────────────┐      ┌────────────────┐      ┌────────────────┐
-│   hardware.py  │      │    mesh.py     │      │   executor.py  │
-│ (LoRa/LED/I2C) │      │ (MeshTelemetry)│      │(Subprocesses)  │
-└────────────────┘      └────────────────┘      └────────────────┘
-```
+---
 
 ### Critical Flow Stages
 - **Startup Phase**: Verifies hardware connections. If the Teensy/Pico responds to a `STATUS` query, a green LED blinks on startup for 30s. If it fails, a red LED blinks and the system exits.
@@ -178,7 +165,8 @@ $$\text{Relative Error (\%)} = \frac{D_{\text{measured}} - D_{\text{sonar}}}{D_{
 ### 3. AI Target Identification (Sample Output)
 Arducam for Raspberry Pi Camera footage served as the visual ground-truth reference for validating the YOLO detection accuracy.
 
-![Yellowfin Tuna Target](images/yellowfin_tuna.jpg)
+# <p align="center"> <img src="images/yellowfin_tuna.jpg" alt="Yellowfin Tuna Target" style="max-width:100%; height:auto;" /> </p>
+
 *Sample detection targets including: Bagre marinus, Tylosurus crocodilus, Caranx hippos, and Anguilla rostrata.*
 
 | Target Image Name | Timestamp | Fish Detected | Top Predicted Species | Confidence | Direct Score | Retrieval Score |
