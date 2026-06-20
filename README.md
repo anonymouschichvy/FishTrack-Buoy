@@ -1,4 +1,16 @@
 # <p align="center"> <img src="images/logo.jpg" alt="FishTrack Logo" style="max-width:100%; height:auto;" /> </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-5-c51a4a?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 5" />
+  <img src="https://img.shields.io/badge/Arduino-Uno%20R3-00979d?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino Uno" />
+  <img src="https://img.shields.io/badge/YOLOv10-TorchScript-red?style=for-the-badge&logo=pytorch&logoColor=white" alt="YOLOv10" />
+  <img src="https://img.shields.io/badge/LoRa-Mesh%20Network-orange?style=for-the-badge" alt="LoRa Mesh" />
+  <img src="https://img.shields.io/badge/OpenCV-Motion%20Detection-white?style=for-the-badge&logo=opencv&logoColor=green" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/GPS-NEO--M8N-lightgrey?style=for-the-badge&logo=googlemaps&logoColor=red" alt="GPS NEO-M8N" />
+  <img src="https://img.shields.io/badge/Power-Solar%20MPPT-brightgreen?style=for-the-badge" alt="Solar MPPT" />
+</p>
+
 FishTrack is an autonomous marine monitoring system that integrates underwater acoustics (sonar), artificial intelligence (YOLO-based fish detection), satellite navigation (GPS), and low-power long-range communication (LoRa) to dynamically map marine environments. Designed for coastal fishing communities, it aims to reduce manual search time, lower fuel costs, and encourage sustainable fisheries management.
 
 ---
