@@ -181,4 +181,3 @@ python scratch/validate_refactoring.py
 
 - **SONAR Driver Hardware Interface**: Utilizes principles and configurations from the [Open Echo TUSS4470 Driver](https://github.com/Neumi/open_echo) (cloned locally at [open_echo](file:///c:/Users/EJ/Desktop/FISHTRACK/MACOSX/FISHTRACK-BUOY/open_echo)) to coordinate ultrasonic pulse-echo calculations.
 - **AI Fish Species Database**: Incorporates taxonomy classifications and neural network insights from the [Fishial Fish Identification Project](https://github.com/fishial/fish-identification) (cloned locally at [fish-identification](file:///c:/Users/EJ/Desktop/FISHTRACK/MACOSX/FISHTRACK-BUOY/fish-identification)) to validate target predictions.
-
