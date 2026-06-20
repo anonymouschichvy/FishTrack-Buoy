@@ -1,8 +1,5 @@
 # <p align="center"> <img src="images/logo.jpg" alt="FishTrack Logo" style="max-width:100%; height:auto;" /> </p>
 
-# FishTrack 🌊🛰️🐟
-> **Design and Deployment of a Cloud-Based SONAR Buoy Network with LoRa and GPS for Real-Time Mapping and Identification of Fish Hotspots in Coastal Waters**
-
 FishTrack is an autonomous marine monitoring system that integrates underwater acoustics (sonar), artificial intelligence (YOLO-based fish detection), satellite navigation (GPS), and low-power long-range communication (LoRa) to dynamically map marine environments. Designed for coastal fishing communities, it aims to reduce manual search time, lower fuel costs, and encourage sustainable fisheries management.
 
 ---
