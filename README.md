@@ -170,7 +170,7 @@ $$\text{Absolute Error} = D_{\text{measured}} - D_{\text{sonar}}$$
 $$\text{Relative Error (\%)} = \frac{D_{\text{measured}} - D_{\text{sonar}}}{D_{\text{measured}}} \times 100$$
 
 ### 3. AI Target Identification (Sample Output)
-GoPro footage served as the visual ground-truth reference for validating the YOLO detection accuracy.
+Arducam for Raspberry Pi Camera footage served as the visual ground-truth reference for validating the YOLO detection accuracy.
 
 ![Yellowfin Tuna Target](images/yellowfin_tuna.jpg)
 *Sample detection targets including: Bagre marinus, Tylosurus crocodilus, Caranx hippos, and Anguilla rostrata.*
