@@ -12,15 +12,18 @@ FishTrack is an autonomous marine monitoring system that integrates underwater a
 Below is the physical and component design of the completed FishTrack buoy, demonstrating its waterproof structural assembly, floatation components, and electronic chassis.
 
 ### 🌟 The Completed Buoy
+
 | Final Product (Chassis & Flotation) | Component Layout (Internal Assembly) |
 | :---: | :---: |
-| ![Final Product](images/FINALPRODUCT.png) | ![Internal Assembly](images/COMPONENT.png) |
+| <img src="images/FINALPRODUCT.png" alt="Final Product" width="350"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" width="350"/> |
+
+---
 
 ### 🔍 Angles & Secondary Layouts
+
 | Side Elevation View | Bottom Transducer View | Auxiliary Components |
 | :---: | :---: | :---: |
-| ![Side View](images/SIDE.png) | ![Bottom View](images/BOTTOM.png) | ![Auxiliary Setup](images/COMPONENT2.png) |
-
+| <img src="images/SIDE.png" alt="Side View" width="250"/> | <img src="images/BOTTOM.png" alt="Bottom View" width="250"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" width="250"/> |
 ---
 
 ## 💡 Rationale & Problem Statement
