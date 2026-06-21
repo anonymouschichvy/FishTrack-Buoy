@@ -23,8 +23,10 @@ Below is the physical and component design of the completed FishTrack buoy, demo
 
 ## Final Product & Assembly
 
-| Final Product (Chassis & Flotation) | Component Layout (Auxiliary Assembly) |
-| :---: | :---: | | <img src="images/FINALPRODUCT.png" alt="Final Product" height="2000"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="1940"/> |
+| Final Product (Chassis & Flotation) | Component Layout (Auxiliary Assembly) | 
+| :---: | :---: | 
+| <img src="images/FINALPRODUCT.png" alt="Final Product" height="2000"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="1940"/> |
+---
 
 ## Side Elevation View
 
