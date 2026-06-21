@@ -31,19 +31,19 @@ Below is the physical and component design of the completed FishTrack buoy, demo
 ## Side Elevation View
 
 <p align="center">
-  <img src="images/SIDE.png" alt="Side View" width="50%">
+  <img src="images/SIDE.png" alt="Side View" width="100%">
 </p>
 
 ## Bottom Transducer View
 
 <p align="center">
-  <img src="images/BOTTOM.png" alt="Bottom View" width="50%">
+  <img src="images/BOTTOM.png" alt="Bottom View" width="100%">
 </p>
 
 ## Internal Components
 
 <p align="center">
-  <img src="images/COMPONENT2.png" alt="Auxiliary Setup" width="50%">
+  <img src="images/COMPONENT2.png" alt="Auxiliary Setup" width="100%">
 </p>
 
 ## 💡 Rationale & Problem Statement
