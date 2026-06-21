@@ -21,13 +21,29 @@ Below is the physical and component design of the completed FishTrack buoy, demo
 
 ### 🌟 The Completed Buoy
 
+## Final Product & Assembly
+
 | Final Product (Chassis & Flotation) | Component Layout (Auxiliary Assembly) |
-| :---: | :---: |
-| <img src="images/FINALPRODUCT.png" alt="Final Product" height="2000"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="1940"/> |
----
-| Side Elevation View | Bottom Transducer View | Internal Components |
-| :---: | :---: | :---: |
-| <img src="images/SIDE.png" alt="Side View" style="width: 100%; height: 400px; object-fit: contain;"/> | <img src="images/BOTTOM.png" alt="Bottom View" style="width: 100%; height: 400px; object-fit: contain;"/> | <img src="images/COMPONENT2.png" alt="Auxiliary Setup" style="width: 100%; height: 400px; object-fit: contain;"/> |
+| :---: | :---: | | <img src="images/FINALPRODUCT.png" alt="Final Product" height="2000"/> | <img src="images/COMPONENT.png" alt="Internal Assembly" height="1940"/> |
+
+## Side Elevation View
+
+<p align="center">
+  <img src="images/SIDE.png" alt="Side View" width="50%">
+</p>
+
+## Bottom Transducer View
+
+<p align="center">
+  <img src="images/BOTTOM.png" alt="Bottom View" width="50%">
+</p>
+
+## Internal Components
+
+<p align="center">
+  <img src="images/COMPONENT2.png" alt="Auxiliary Setup" width="50%">
+</p>
+
 ## 💡 Rationale & Problem Statement
 
 Traditional coastal fishing is heavily reliant on manual searches, leading to time-consuming and fuel-intensive trips. This guesswork causes:
