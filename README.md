@@ -3,13 +3,14 @@
 
 <p align="center">
   <a href="https://doi.org/10.5281/zenodo.20716346"> <img src="https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20716346-1682D4?style=for-the-badge" alt="Zenodo DOI" /> </a>
+  
+<a href="https://github.com/anonymouschichvy/FishTrack">
+  <img src="https://img.shields.io/badge/Main_Project-FishTrack-00A8E8?style=for-the-badge&logo=github&logoColor=white" alt="FishTrack" />
+</a>
   <a href="https://github.com/anonymouschichvy/FishTrack">
   <img src="https://img.shields.io/badge/FishTrack-Core_System-00A8E8?style=for-the-badge&logo=github&logoColor=white" alt="FishTrack Core System" />
 </a>
 
-<a href="https://github.com/anonymouschichvy/FishTrack-Buoy">
-  <img src="https://img.shields.io/badge/FishTrack-Buoy_Module-1682D4?style=for-the-badge&logo=github&logoColor=white" alt="FishTrack Buoy Module" />
-</a>
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-5-c51a4a?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 5" />
