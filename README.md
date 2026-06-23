@@ -1,6 +1,9 @@
 # <p align="center"> <img src="images/logo.jpg" alt="FishTrack Logo" style="max-width:100%; height:auto;" /> </p>
 
+
 <p align="center">
+  <a href="https://doi.org/10.5281/zenodo.20716346"> <img src="https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.20716346-1682D4?style=for-the-badge" alt="Zenodo DOI" /> </a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
   <img src="https://img.shields.io/badge/Raspberry%20Pi-5-c51a4a?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 5" />
   <img src="https://img.shields.io/badge/Arduino-Uno%20R3-00979d?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino Uno" />
