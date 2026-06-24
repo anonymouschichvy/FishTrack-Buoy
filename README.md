@@ -143,6 +143,7 @@ A full comparative cost breakdown between the **Completed Buoy Build** (as deplo
 | **(4) 21700 5550mAh Battery** | ~ | 900.00 | Lithium battery cells (used in cheap alternative power module). |
 | **Arducam Pi Camera (Secondary)** | ~ | 248.00 | Extra secondary night/IR camera. |
 | **Arduino Nano V3** | ~ | ~ | Auxiliary microcontroller (CH340G). |
+| **HMC349 RF SPDT SWITCH 100Mhz~4Ghz** | ~ | ~ | RF SPDT switch for antenna/signal routing. |
 | **Arduino Uno R3 (CH340G)** | ~ | ~ | Sonar echo timing controller. |
 | **Raspberry Pi Pico YD-RP2040** | ~ | ~ | Mesh node processing controller. |
 | **3W LED Light w/ Heatsink** | ~ | ~ | Wayfinder lighting system. |
