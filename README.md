@@ -1,4 +1,4 @@
-# <p align="center"> <img src="images/logo.jpg" alt="FishTrack Logo" style="max-width:100%; height:auto;" /> </p>
+# <p align="center"> <img src="docs/images/logo.jpg" alt="FishTrack Logo" style="max-width:100%; height:auto;" /> </p>
 
 
 <p align="center">
