@@ -73,8 +73,7 @@ graph TD
     %% Buoy Subsystem
     subgraph Buoy Node [Buoy Node - Poseidon]
         RPi5[Raspberry Pi 5 Core]
-        CamDay[64MP Hawkeye Day Camera]
-        CamNight[16MP NoIR Night Camera]
+        CamDay&Night[16MP NoIR Camera]
         IR[IR LED Spotlight]
         GPS[GPS NEO-M8M Module]
         Uno[Uno R3 + TUSS4470 Shield]
@@ -85,8 +84,7 @@ graph TD
         LiPo[Li-Po Battery Tray]
         
         %% Connections inside buoy
-        RPi5 -->|CSI| CamDay
-        RPi5 -->|CSI| CamNight
+        RPi5 -->|CSI| CamDay&Night
         RPi5 -->|GPIO| IR
         RPi5 -->|UART| GPS
         RPi5 -->|USB/Serial| Uno
